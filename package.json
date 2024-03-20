@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "build": "rollup --config rollup.config.js",
-    "publish": "npm run build && npm publish"
+    "pub": "npm run build && npm publish"
   },
   "keywords": [
     "hexo",
