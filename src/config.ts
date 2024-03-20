@@ -24,6 +24,4 @@ TinyConfig.css = Object.assign({}, defaultConf.css, TinyConfig.css)
 TinyConfig.js = Object.assign({}, defaultConf.js, TinyConfig.js)
 TinyConfig.html = Object.assign({}, defaultConf.html, TinyConfig.html)
 
-hexo.log.info('TinyConfig', TinyConfig)
-
 export default TinyConfig
