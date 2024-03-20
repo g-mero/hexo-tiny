@@ -1,0 +1,43 @@
+{
+  "name": "hexo-tiny",
+  "version": "0.0.1",
+  "description": "Minifier & Optimization plugin for Hexo, include HTML, CSS, JS, SVG",
+  "main": "dist/hexo-tiny.js",
+  "files": [
+    "dist/**"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "hexo",
+    "minifier",
+    "optimization",
+    "html"
+  ],
+  "author": "Gmero <gmerocom@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.1",
+    "@babel/preset-env": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/hexo": "^3.8.12",
+    "@xbmlz/eslint-config-prettier": "^0.1.17",
+    "@xbmlz/eslint-config-ts": "^0.1.17",
+    "eslint": "^8.57.0",
+    "rollup": "^3.29.4",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@minify-html/node": "^0.15.0",
+    "lightningcss": "^1.24.1",
+    "minimatch": "^9.0.3",
+    "terser": "^5.29.2"
+  }
+}
