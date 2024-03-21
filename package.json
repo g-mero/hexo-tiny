@@ -1,6 +1,6 @@
 {
   "name": "hexo-tiny",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Minifier & Optimization plugin for Hexo, include HTML, CSS, JS, SVG",
   "main": "dist/hexo-tiny.js",
   "files": [
@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@minify-html/node": "^0.15.0",
+    "browserslist": "^4.23.0",
     "lightningcss": "^1.24.1",
     "minimatch": "^9.0.3",
     "terser": "^5.29.2"
