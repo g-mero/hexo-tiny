@@ -1,6 +1,6 @@
 {
   "name": "hexo-tiny",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Minifier & Optimization plugin for Hexo, include HTML, CSS, JS, SVG",
   "main": "dist/hexo-tiny.js",
   "files": [
@@ -9,7 +9,8 @@
   "type": "module",
   "scripts": {
     "build": "rollup --config rollup.config.js",
-    "pub": "npm run build && npm publish"
+    "pub": "npm run build && npm publish",
+    "test": "node test/index.js"
   },
   "keywords": [
     "hexo",
