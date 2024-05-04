@@ -1,6 +1,6 @@
 {
   "name": "hexo-tiny",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minifier & Optimization plugin for Hexo, include HTML, CSS, JS, SVG",
   "main": "dist/hexo-tiny.js",
   "files": [

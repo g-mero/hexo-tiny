@@ -23,5 +23,5 @@ export default {
     }),
     terser(),
   ],
-  external:['@minify-html/node','lightningcss','terser','minimatch']
+  external:['html-minifier','lightningcss','terser','minimatch','browserslist']
 }
