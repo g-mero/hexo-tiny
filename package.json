@@ -30,6 +30,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@types/hexo": "^3.8.12",
+    "@types/html-minifier": "^4.0.5",
     "@xbmlz/eslint-config-prettier": "^0.1.17",
     "@xbmlz/eslint-config-ts": "^0.1.17",
     "eslint": "^8.57.0",
@@ -37,8 +38,8 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
-    "@minify-html/node": "^0.15.0",
     "browserslist": "^4.23.0",
+    "html-minifier": "^4.0.0",
     "lightningcss": "^1.24.1",
     "minimatch": "^9.0.3",
     "terser": "^5.29.2"
